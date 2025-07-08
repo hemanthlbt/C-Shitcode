@@ -1,36 +1,37 @@
-﻿int number  = 100;
-Console.WriteLine(number);
-string name  = "this is hemanth kumar lingabathina";
-Console.WriteLine(name);
-double pi =	 0.90;
-Console.WriteLine(pi);
-int num=100;
-num = 500;
-Console.Write(num);
-bool mybool = true;
-// bool lbool = false;
-Console.WriteLine(mybool);
-const int numbers = 100;
-Console.WriteLine(numbers);
-string names = "hemanthkumar";
-Console.WriteLine(names+ "lingabathina");
-string firstname = "hemanthkumar";
-string lastname = "lingabathina";
-string fullname = firstname + lastname;
-Console.WriteLine(fullname);
-string fullass = "hemanthkumarlingabathina";
-Console.WriteLine("fullass");
+﻿using System;
+
+namespace myapp {
+
+
+class Program {
+
+	static void Main(string[] args) {
+		
+
+
+		Console.WriteLine("please enter your age:");
+		int age = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Your age is :" + age);
+
+int x = 100 + 89;
+Console.WriteLine(x);
+
+int sum1 = 100;
+int sum2 = sum1 + 100;
+int sum3 = sum1 + sum2;
+Console.WriteLine(sum3);
 
 
 
 
+int bunty = 500;
+bunty += 5;
+Console.WriteLine(bunty);
 
+    }
+}
 
-
-
-
-
-
+}
 
 
 
