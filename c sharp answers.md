@@ -1,3 +1,9 @@
+
+```md
+# How to add 2 integers in c# by taking input from the user?
+```
+
+
 ```cs
 
 
