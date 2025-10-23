@@ -1,4 +1,3 @@
-### Fizz buzz Program in C#!
 //fizzbuzz;
 //Print the numbers from 1 to 30.
 //Print fizz if the number is divisable by 3.
